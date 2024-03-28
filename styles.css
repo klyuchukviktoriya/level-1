@@ -21,11 +21,13 @@ p {
 
 a {
   text-decoration: none;
+  color: #fff;
+  transition: color 0.5s ease;
 }
 
 a:hover,
 a:focus {
-  color: #c0c0c060;
+  color: #c0c0c0b0;
 }
 
 ul {
@@ -46,7 +48,7 @@ button {
 }
 
 body {
-  background-color: #000;
+  background-color: #161616;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -79,6 +81,12 @@ section {
 
 .logo-icon {
   fill: #fff;
+}
+
+.logo-icon:hover,
+.logo-icon:focus {
+  fill: #c0c0c0b0;
+  transition: fill 0.5s ease;
 }
 
 .header-nav {
@@ -125,6 +133,7 @@ section {
   display: inline-flex;
   align-items: center;
   margin-left: 31px;
+  transition: all 0.5s ease;
 }
 
 .header-button:hover,
@@ -275,6 +284,7 @@ section {
   gap: 6px;
   align-items: center;
   padding: 5px 10px 5px 4px;
+  transition: all 0.5s ease;
 }
 
 .wedo-button:hover,
@@ -353,6 +363,7 @@ section {
   color: #000;
   letter-spacing: 0.4px;
   height: 42px;
+  transition: all 0.5s ease;
 }
 
 .tools-button:hover,
@@ -499,6 +510,7 @@ clients-container {
   color: #000;
   letter-spacing: 0.4px;
   height: 42px;
+  transition: all 0.5s ease;
 }
 
 .help-button:hover,
@@ -659,7 +671,7 @@ clients-container {
 
 .footer-undertheboards {
   display: flex;
-  gap: 656px;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -677,11 +689,12 @@ clients-container {
 
 .footer-icon-soc {
   fill: #c0c0c0;
+  transition: all 0.5s ease;
 }
 
 .footer-icon-soc:hover,
 .footer-icon-soc:focus {
-  fill: #c0c0c060;
+  fill: #c0c0c0a0;
 }
 
 /*! Плюшки */
