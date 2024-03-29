@@ -115,7 +115,7 @@ section {
   line-height: 1.33;
 }
 
-.header-search-input {
+.search-input {
   width: 155px;
   height: 42px;
   border-radius: 14px;
@@ -125,23 +125,23 @@ section {
   margin-left: 31px;
 }
 
-.header-button {
-  background: #fff;
-  border: none;
+.search-button {
   border-radius: 14px;
-  transition: all 0.5s ease;
   position: absolute;
+  transition: all 0.5s ease;
   right: 8px;
   top: 5px;
+  background: #fff;
+  border: none;
 }
 
-.header-form {
+.search-form {
   position: relative;
   display: inline-block;
 }
 
-.header-button:hover,
-.header-button:focus {
+.search-button:hover,
+.search-button:focus {
   background-color: #c0c0c0d4;
 }
 
@@ -193,6 +193,7 @@ section {
 
 .icon {
   fill: #ffffff;
+  /* fill: #ffffff; */
 }
 
 .icon-text {
