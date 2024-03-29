@@ -627,14 +627,7 @@ clients-container {
   margin-bottom: 36px;
 }
 
-/* .footer-subscribe-form {
-}
 .footer-subscribe-form {
-}
-.footer-subscribe-container {
-} */
-
-.footer-subscribe-label {
   position: relative;
   display: inline-block;
 }
@@ -718,23 +711,15 @@ clients-container {
     transform: rotate(0deg); /* зворотній обертання */
   }
 }
-/* 
-#rotate-button {
-} */
 
-#rotate-button:hover .button-icon,
-#rotate-button:focus .button-icon,
-#rotate-button:hover .footer-button-icon,
-#rotate-button:focus .footer-button-icon {
+.rotate-button:hover .button-icon,
+.rotate-button:focus .button-icon,
+.rotate-button:hover .footer-button-icon,
+.rotate-button:focus .footer-button-icon {
   animation: rotate 4s ease-in-out forwards; /* Виклик анімації при наведенні та фокусу на кнопку */
 }
 
-#rotate-button:not(:hover):not(:focus) .button-icon,
-#rotate-button:not(:hover):not(:focus) .footer-button-icon {
+.rotate-button:not(:hover):not(:focus) .button-icon,
+.rotate-button:not(:hover):not(:focus) .footer-button-icon {
   animation: rotate-back 3s ease-in-out forwards; /* Виклик зворотної анімації при відсутності наведення та фокусу на кнопку */
 }
-
-/* 
-.button-icon {
-  transition: transform 5s ease-in-out; 
-} */
