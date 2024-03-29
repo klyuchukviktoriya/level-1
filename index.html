@@ -23,21 +23,27 @@
         </svg>
       </a>
       <nav class="header-nav">
-        <a class="header-nav-business" href="./index.html" target="_blank">Business areas</a>
+        <a class="header-nav-business" href="#wedo">Business areas</a>
         <ul class="header-nav-list">
           <li class="header-nav-item">
-            <a class="header-nav-link" href="./index.html" target="_blank">Featured images</a>
+            <a class="header-nav-link" href="#fuji">Featured images</a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="./index.html" target="_blank">Gear cage</a>
+            <a class="header-nav-link" href="#tools">Gear cage</a>
           </li>
           <li class="header-nav-item">
-            <a class="header-nav-link" href="./index.html" target="_blank">Contact</a>
+            <a class="header-nav-link" href="#footer">Contact</a>
           </li>
         </ul>
-        <button class="header-button" type="button">Get template</button>
       </nav>
-
+      <form class="header-form" action="/search" method="get" id="rotate-button">
+        <input class="header-search-input " type="text" name="query" placeholder="Search...">
+        <button class="header-button" type="button">
+          <svg class="footer-button-icon" height="32" width="32">
+            <use href="./images/symbol-defs.svg#icon-photo-2"></use>
+          </svg>
+        </button>
+      </form>
     </div>
   </header>
   <main>
@@ -85,7 +91,7 @@
         </ul>
       </div>
     </section>
-    <section class="wedo">
+    <section class="wedo" id="wedo">
       <div class="container">
         <h2 class="wedo-title">What we do.</h2>
         <p class="wedo-text">
@@ -168,7 +174,7 @@
         </ul>
       </div>
     </section>
-    <section class="fuji">
+    <section class="fuji" id="fuji">
       <div class="container">
         <div class="fuji-container">
           <p class="fuji-title">Sunset at Mount Fuji</p>
@@ -206,7 +212,7 @@
         </ul>
       </div>
     </section>
-    <section class="tools">
+    <section class="tools" id="tools">
       <div class="container">
         <div class="tools-info">
           <div class="tools-span">
@@ -386,7 +392,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container">
       <div class="abovetheboards">
         <div class="footer-info">
